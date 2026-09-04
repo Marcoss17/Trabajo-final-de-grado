@@ -30,7 +30,7 @@ Entre los objetivos del proyecto se encuentran:
 
 * Registro de nuevos usuarios.
 * Inicio de sesión.
-* Autenticación mediante **JWT**.
+* Autenticación mediante JWT.
 * Protección de rutas mediante middleware.
 * Edición de datos personales.
 * Cambio de contraseña.
