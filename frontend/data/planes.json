@@ -1,0 +1,340 @@
+[
+  {
+  "id": 1,
+  "nombre": "Básico",
+  "slug": "basico",
+  "precio": 9.99,
+  "caracteristicas": [
+    "Acceso a rutinas básicas",
+    "Seguimiento de progreso limitado",
+    "Soporte básico"
+  ],
+  "rutinas": [
+    {
+      "nombre": "Rutina Fuerza y Movilidad - Día 1",
+      "slug": "basico-fuerza-movilidad-dia-1",
+      "descripcion": "Ejercicios básicos para iniciarse en fuerza y movilidad funcional.",
+      "detalles": {
+        "ejercicios": [
+          {
+            "nombre": "Sentadillas con peso corporal",
+            "series": 3,
+            "repeticiones": 15,
+            "videoUrl": "https://www.youtube.com/watch?v=cZlHUeB_j6c"
+          },
+          {
+            "nombre": "Elevaciones de talones",
+            "series": 3,
+            "repeticiones": 20,
+            "videoUrl": "https://www.youtube.com/watch?v=yyoubmNCDk4"
+          },
+          {
+            "nombre": "Puente de glúteos",
+            "series": 3,
+            "repeticiones": 12,
+            "videoUrl": "https://www.youtube.com/watch?v=TZBUBUrmA9g"
+          },
+          {
+            "nombre": "Estiramientos dinámicos de piernas",
+            "series": 2,
+            "repeticiones": 10,
+            "videoUrl": "https://www.youtube.com/watch?v=yUXVpQOjOwY"
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Rutina Cardio y Agilidad - Día 2",
+      "slug": "basico-cardio-agilidad-dia-2",
+      "descripcion": "Ejercicios de cardio suave y agilidad básica.",
+      "detalles": {
+        "ejercicios": [
+          {
+            "nombre": "Marcha rápida",
+            "series": 3,
+            "repeticiones": 20,
+            "videoUrl": "https://www.youtube.com/watch?v=Kxo0MXmx4Qg"
+          },
+          {
+            "nombre": "Saltos laterales suaves",
+            "series": 3,
+            "repeticiones": 15,
+            "videoUrl": "https://www.youtube.com/watch?v=AhyEX19faWw"
+          },
+          {
+            "nombre": "Caminata con rodillas altas",
+            "series": 3,
+            "repeticiones": 20,
+            "videoUrl": "https://www.youtube.com/watch?v=j8XGysKsPFc"
+          },
+          {
+            "nombre": "Movilidad de tobillos",
+            "series": 2,
+            "repeticiones": 15,
+            "videoUrl": "https://www.youtube.com/watch?v=Q19zrzNnVWs"
+          }
+        ]
+      }
+    }
+  ]
+},
+  {
+  "id": 2,
+  "nombre": "Intermedio",
+  "slug": "intermedio",
+  "precio": 19.99,
+  "caracteristicas": [
+    "Acceso a todas las rutinas",
+    "Seguimiento de progreso completo",
+    "Soporte prioritario"
+  ],
+  "rutinas": [
+    {
+      "nombre": "Fuerza Funcional - Día 1",
+      "slug": "intermedio-fuerza-funcional-dia-1",
+      "descripcion": "Ejercicios con peso corporal y peso ligero para fuerza funcional.",
+      "detalles": {
+        "ejercicios": [
+          {
+            "nombre": "Sentadillas con salto",
+            "series": 3,
+            "repeticiones": 12,
+            "videoUrl": "https://www.youtube.com/watch?v=IiHH0EWo8-k"
+          },
+          {
+            "nombre": "Zancadas caminando",
+            "series": 3,
+            "repeticiones": 12,
+            "videoUrl": "https://www.youtube.com/watch?v=_qgTx3yZ5jE"
+          },
+          {
+            "nombre": "Plancha frontal",
+            "series": 3,
+            "repeticiones": "30 segundos",
+            "videoUrl": "https://www.youtube.com/watch?v=TnsqBqlwSxg"
+          },
+          {
+            "nombre": "Elevaciones laterales de cadera",
+            "series": 3,
+            "repeticiones": 15,
+            "videoUrl": "https://www.youtube.com/watch?v=ZHc60-15c90"
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Cardio y Agilidad - Día 2",
+      "slug": "intermedio-cardio-agilidad-dia-2",
+      "descripcion": "Entrenamiento de cardio con foco en agilidad y reacción.",
+      "detalles": {
+        "ejercicios": [
+          {
+            "nombre": "Sprints cortos (20m)",
+            "series": 6,
+            "repeticiones": null,
+            "videoUrl": "https://www.youtube.com/watch?v=DIQ6JMsyEAs"
+          },
+          {
+            "nombre": "Saltos laterales",
+            "series": 4,
+            "repeticiones": 20,
+            "videoUrl": "https://www.youtube.com/watch?v=AhyEX19faWw"
+          },
+          {
+            "nombre": "Escalera de agilidad",
+            "series": 4,
+            "repeticiones": null,
+            "videoUrl": "https://www.youtube.com/watch?v=s5AQpvjL5OI"
+          },
+          {
+            "nombre": "Mountain climbers",
+            "series": 3,
+            "repeticiones": 30,
+            "videoUrl": "https://www.youtube.com/watch?v=nmwgirgXLYM"
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Potencia y Core - Día 3",
+      "slug": "intermedio-potencia-core-dia-3",
+      "descripcion": "Ejercicios de potencia y fortalecimiento del core.",
+      "detalles": {
+        "ejercicios": [
+          {
+            "nombre": "Saltos al cajón",
+            "series": 4,
+            "repeticiones": 10,
+            "videoUrl": "https://www.youtube.com/watch?v=NYLOoumdJ1Y"
+          },
+          {
+            "nombre": "Plancha lateral",
+            "series": 3,
+            "repeticiones": "30 segundos por lado",
+            "videoUrl": "https://www.youtube.com/watch?v=2Oko68u9PaE"
+          },
+          {
+            "nombre": "Russian twists",
+            "series": 3,
+            "repeticiones": 20,
+            "videoUrl": "https://www.youtube.com/watch?v=cJ1ZSWlkKXs"
+          },
+          {
+            "nombre": "Burpees",
+            "series": 3,
+            "repeticiones": 12,
+            "videoUrl": "https://www.youtube.com/watch?v=awbFx6HqWns"
+          }
+        ]
+      }
+    }
+  ]
+},
+
+  {
+    "id": 3,
+    "nombre": "Premium",
+    "slug": "premium",
+    "precio": 29.99,
+    "caracteristicas": [
+      "Acceso a rutinas avanzadas",
+      "Entrenador personal online",
+      "Seguimiento avanzado",
+      "Soporte 24/7"
+    ],
+    "rutinas": [
+      {
+        "nombre": "Fuerza Máxima - Día 1",
+        "slug": "premium-fuerza-maxima-dia-1",
+        "descripcion": "Entrenamiento de fuerza máxima con ejercicios compuestos.",
+        "detalles": {
+          "ejercicios": [
+            {
+              "nombre": "Sentadilla con barra",
+              "series": 5,
+              "repeticiones": 5,
+              "videoUrl": "https://www.youtube.com/watch?v=dsCuiccYNGs"
+            },
+            {
+              "nombre": "Peso muerto convencional",
+              "series": 5,
+              "repeticiones": 5,
+              "videoUrl": "https://www.youtube.com/watch?v=0XL4cZR2Ink"
+            },
+            {
+              "nombre": "Press de banca",
+              "series": 5,
+              "repeticiones": 5,
+              "videoUrl": "https://www.youtube.com/watch?v=fqsTgdTPRQU"
+            },
+            {
+              "nombre": "Remo con barra",
+              "series": 4,
+              "repeticiones": 8,
+              "videoUrl": "https://www.youtube.com/watch?v=OXH-ecu-Obw"
+            }
+          ]
+        }
+      },
+      {
+        "nombre": "Potencia y Pliometría - Día 2",
+        "slug": "premium-potencia-pliometria-dia-2",
+        "descripcion": "Ejercicios pliométricos y de potencia para explosividad.",
+        "detalles": {
+          "ejercicios": [
+            {
+              "nombre": "Saltos al cajón",
+              "series": 5,
+              "repeticiones": 8,
+              "videoUrl": "https://www.youtube.com/watch?v=NYLOoumdJ1Y"
+            },
+            {
+              "nombre": "Sprint con arrastre de trineo",
+              "series": 6,
+              "repeticiones": 20,
+              "videoUrl": "https://www.youtube.com/watch?v=Famvi1Ite-U"
+            },
+            {
+              "nombre": "Lanzamientos de balón medicinal",
+              "series": 4,
+              "repeticiones": 12,
+              "videoUrl": "https://www.youtube.com/watch?v=94Bnguutg4Y"
+            },
+            {
+              "nombre": "Saltos en profundidad",
+              "series": 4,
+              "repeticiones": 10,
+              "videoUrl": "https://www.youtube.com/watch?v=SPe8vXC5tR0"
+            }
+          ]
+        }
+      },
+      {
+        "nombre": "Cardio Explosivo y Agilidad - Día 3",
+        "slug": "premium-cardio-explosivo-agilidad-dia-3",
+        "descripcion": "Trabajo cardiovascular intenso con enfoque en agilidad y reacción.",
+        "detalles": {
+          "ejercicios": [
+            {
+              "nombre": "Sprints en cuestas",
+              "series": 6,
+              "repeticiones": 30,
+              "videoUrl": "https://www.youtube.com/watch?v=sg9k4-9uJJA"
+            },
+            {
+              "nombre": "Escalera de agilidad avanzada",
+              "series": 5,
+              "repeticiones": null,
+              "videoUrl": "https://www.youtube.com/watch?v=PwO5TR3g6ic"
+            },
+            {
+              "nombre": "Battle ropes",
+              "series": 5,
+              "repeticiones": 40,
+              "videoUrl": "https://www.youtube.com/watch?v=yxWrWFXiI9c"
+            },
+            {
+              "nombre": "Sprint lateral con conos",
+              "series": 4,
+              "repeticiones": 20,
+              "videoUrl": "https://www.youtube.com/watch?v=2ZRfq7SKW2w"
+            }
+          ]
+        }
+      },
+      {
+        "nombre": "Core y Estabilidad - Día 4",
+        "slug": "premium-core-estabilidad-dia-4",
+        "descripcion": "Ejercicios para fortalecer el core y mejorar la estabilidad articular.",
+        "detalles": {
+          "ejercicios": [
+            {
+              "nombre": "Plancha con desplazamiento",
+              "series": 4,
+              "repeticiones": "40 segundos",
+              "videoUrl": "https://www.youtube.com/watch?v=1zUfnnXMSAM"
+            },
+            {
+              "nombre": "Elevaciones de piernas colgado",
+              "series": 4,
+              "repeticiones": 15,
+              "videoUrl": "https://www.youtube.com/watch?v=4HD_BLechKI"
+            },
+            {
+              "nombre": "Russian twists con balón medicinal",
+              "series": 4,
+              "repeticiones": 20,
+              "videoUrl": "https://www.youtube.com/watch?v=Dg6557IZT3U"
+            },
+            {
+              "nombre": "Puente lateral con elevación de pierna",
+              "series": 3,
+              "repeticiones": 15,
+              "videoUrl": "https://www.youtube.com/watch?v=4vp4QDbnKPA"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

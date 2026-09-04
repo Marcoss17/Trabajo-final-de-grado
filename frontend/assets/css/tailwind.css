@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 1000px transparent inset !important;
+  -webkit-text-fill-color: inherit !important;
+  background-color: transparent !important;
+  transition: background-color 9999s ease-in-out 0s;
+  font-size: 1rem; /* equivale a Tailwind's text-base */
+}
+
+.autofill-contacto:-webkit-autofill,
+.autofill-contacto:-webkit-autofill:hover,
+.autofill-contacto:-webkit-autofill:focus,
+.autofill-contacto:-webkit-autofill:active {
+  -webkit-text-fill-color: #fff !important;
+  background-color: #000 !important;
+  box-shadow: 0 0 0 1000px #000 inset !important;
+  transition: background-color 9999s ease-in-out 0s;
+}
+
+/* Toastification custom styles */
+.Vue-Toastification__toast {
+  background-color: orange !important;
+  color: #fff !important;
+  justify-content: center !important;
+  text-align: center !important;
+  min-width: 300px;
+  max-width: 400px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  left: 0;
+  right: 0;
+}
+
+.Vue-Toastification__toast-body {
+  width: 100%;
+  text-align: center !important;
+  font-weight: 500;
+}
+
+/* Centrar el contenedor de los toasts */
+.Vue-Toastification__container--top-center {
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  right: auto !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
